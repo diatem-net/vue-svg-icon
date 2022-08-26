@@ -1,0 +1,42 @@
+{
+  "name": "@diatem-net/vue-svg-icon",
+  "description": "Diatem's Vue 3 SVG icon component, with Vite",
+  "author": "Diatem <dev@diatem.net>",
+  "homepage": "https://github.com/diatem-net/vue-svg-icon",
+  "bugs": {
+    "url": "https://github.com/diatem-net/vue-svg-icon/issues"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "vuejs",
+    "vue",
+    "vite",
+    "plugin",
+    "component"
+  ],
+  "license": "MIT",
+  "private": false,
+  "module": "dist/vue-svg-icon.es.js",
+  "main": "dist/vue-svg-icon.umd.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diatem-net/vue-svg-icon.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "sass": "^1.54.5",
+    "vite": "^3.0.0"
+  }
+}
